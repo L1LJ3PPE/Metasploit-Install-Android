@@ -1,0 +1,27 @@
+VIDEO LINK
+https://www.youtube.com/watch?v=8bBLr5-n3DM&t=25s
+
+
+Metasploit install for android with termux.
+
+1. Download Termux app Google Play Store
+
+2. Install scripts
+
+   $ pkg update && pkg upgrade -y && pkg install wget curl openssh git -y
+
+3. Go to HOME directory
+   
+   $ cd $HOME
+
+4. Download metasploit.sh
+
+   $ wget Auxilus.github.io/metasploit.sh
+
+5. Install metasploit.sh (This step takes time about 10 minutes)
+ 
+   $ bash metasploit.sh
+
+6. Run metasploit
+
+   $ msfconsole
